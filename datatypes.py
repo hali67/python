@@ -1,11 +1,22 @@
-myname = "samuel"
-print("type of myname: ",  type(myname)) #string
 
-age = 21
-print("type of age", type(age))
 
-weight = "34.6"
-print("type of weight", type(weight))
 
-isfemale = False
-print("type of d: ", type(isfemale))
+
+
+
+age = 15
+is_student = True
+
+print("Age :", age)
+print("Data type of age is", type(age))
+
+print("is_student :", is_student)
+print("Data Type of is_student is", type(is_student))
+
+
+print('After TYPECASTING')
+newage = str(age)
+print(type(newage))
+
+
+
